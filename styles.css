@@ -17,7 +17,7 @@ body {
     width: 300px;
     height: 30px;
     border-radius: 20px;
-    border: 2px solid;
+    border: 2px solid purple;
     font-weight: bold;
 }
 
@@ -34,5 +34,36 @@ h2, h3, h4 {
     height: 30px;
     width: 150px;
     border-radius: 10px;
-    border: 2px solid;
+    border: 2px solid purple;
+}
+
+#click-me {
+    display: none;
+    font-size: 18px;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-weight: bold;
+    position: relative;
+    top: -85px;
+
+}
+
+#click-me:hover {
+    background-color: #FF99FE;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#heart-gif {
+    display: none;
+    width: 300px;
+}
+
+#lu {
+    display: none;
 }
