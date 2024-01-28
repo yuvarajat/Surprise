@@ -14,8 +14,7 @@ wishSendBtn.addEventListener("click", function() {
         wishEl.style.display = "none";
         wishTypeEl.style.display = "none";
         wishSendBtn.style.display = "none";
-    };
-    setTimeout(function() {
+        setTimeout(function() {
         imageEl.style.display = "none";
         setTimeout(function() {
             clickMeBtn.style.display = "block";
@@ -23,6 +22,6 @@ wishSendBtn.addEventListener("click", function() {
             luEl.style.display = "block";
         }, 200);
     }, 4000);
-    
+    };    
 });
 
